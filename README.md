@@ -1,6 +1,6 @@
-# etherpad-lite for heroku
+# GD399-OSD Etherpad
 
-This is a wrapper of etherpad-lite for Heroku, incorporating the official release from upstream as a submodule. (This will hopefully make it easier to keep current.)
+This is an instance of `etherpad-lite` running on Heroku, forked from [etherpad-lite-heroku](https://github.com/bright-star/etherpad-lite-heroku).
 
 ## quickstart
 
@@ -34,7 +34,7 @@ heroku config:add ETHERPAD_ALLOW_ROOT=1
 ```
 
 To enable Etherpad's authentication features, set "requireSession" and "editOnly"
-to "true" in settings.conf. Also set your own API key : 
+to "true" in settings.conf. Also set your own API key :
 
 ```bash
 heroku config:add ETHERPAD_API_KEY=somereallylongrandomstring
